@@ -1,0 +1,219 @@
+/* script change css styles */
+.burger {
+  display: none;
+}
+.active {
+  left: 0 !important;
+}
+/* maybe box all mmedias css */
+@media (max-width: 1254px) {
+  .catalog_card_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .catalog_card {
+    margin: 10px;
+  }
+}
+@media (max-width: 1241px) {
+  /* ********************************************************************************************************************header */
+  .burger {
+    display: block;
+  }
+  .burger_menu {
+    display: block;
+  }
+  .nav_link_wrapper {
+    left: -100%;
+    top: 0;
+    z-index: 50;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: all 0.5s ease-out;
+    background: var(--bg-bg_gray, #e6e6e6);
+    border-right: 1px solid rgb(105, 105, 105);
+  }
+  .nav_link {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_item {
+    margin-top: 30px;
+  }
+
+  /* ****************************************************************************************************************home section */
+
+  .home_section {
+    height: 100%;
+    padding-top: 48px;
+  }
+  .home_wrapper {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .home_wrapper h1 {
+    text-align: center;
+  }
+  .home_wrapper p {
+    text-align: center;
+    margin: 0 auto;
+    width: 420px;
+  }
+  .submit_application_button {
+    width: 90%;
+  }
+
+  /* right area edia's styles */
+
+  .home_section_right_area {
+    padding-top: 24px;
+  }
+  .home_section_right_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /***************************************************************************************************************about section */
+  .about_section_wrapper {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_wrapper_left_area {
+    height: 100%;
+    width: 100%;
+  }
+  .about_wrapper_left_area {
+    text-align: center;
+    align-items: center;
+  }
+  .about_wrapper_right_area {
+    margin: 20px 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 987px) {
+  /* footer */
+  footer {
+    height: 100%;
+  }
+  .footer_wrapper_items {
+    display: block;
+    margin: 0 auto;
+  }
+  /* footer items about */
+  .footer_items_about {
+    margin: 0 auto;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_about {
+    margin: 12px auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* footer contact */
+  .footer_contact {
+    margin: 25px auto;
+    width: 100%;
+  }
+  .footer_contact form input {
+    margin: 10px 0;
+    max-width: 300px;
+    width: 100%;
+  }
+  .footer_contact form button {
+    max-width: 300px;
+  }
+  /* footer pages menu */
+  .footer_pages_menu {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .footer_link {
+    display: flex;
+    align-items: center;
+  }
+  .footer_item {
+    margin: 15px auto;
+  }
+  .footer_item p {
+    text-align: center;
+  }
+  /* reverse footer */
+  .reverse_footer {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 660px) {
+  .home_wrapper h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 32px;
+  }
+  .home_wrapper p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .home_section_left_area {
+    width: 100%;
+  }
+  .submit_application_button {
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+  .home_section_right_area {
+    width: 100%;
+  }
+  .gift_box {
+    width: 90%;
+    height: 60%;
+  }
+
+  /***************************************************************************************************************about section */
+  .about_wrapper_left_area p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .catalog_card img {
+    width: 90%;
+    height: 70%;
+  }
+  .catalog_text h2 {
+    font-size: 20px;
+  }
+  .catalog_text h1 {
+    font-size: 20px;
+  }
+  .about_wrapper_right_area img {
+    height: 281px;
+  }
+  .contact_section_title h1 {
+    font-size: 32px;
+  }
+  /*  */
+  .footer_wrapper_title h1 {
+    font-size: 32px;
+  }
+}
